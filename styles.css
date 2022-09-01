@@ -1,0 +1,41 @@
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+    display: flex;
+}
+
+.left-content{
+    width: 200px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.left-banner{
+    height: 70px;
+    margin-top: 70px;
+}
+
+.right-content{
+    width: 300px;
+    height: 500px;
+    background-color: violet;
+}
+
+.right-top{
+    width: 300px;
+    height: 200px;
+    background-color: beige;
+}
+
+.right-mid{
+    width: 300px;
+    height: 200px;
+    background-color: salmon;
+}
+
+.right-bot{
+    width: 300px;
+    height: 100px;
+    background-color: gainsboro;
+}
