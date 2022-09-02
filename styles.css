@@ -14,6 +14,15 @@
 .left-banner{
     height: 70px;
     margin-top: 70px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 75%;
+}
+
+.left-banner-content{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .right-content{
