@@ -28,6 +28,7 @@
 
 .left-banner-content {
     font-family: 'Courier New', Courier, monospace;
+    color: purple;
 }
 
 .right-content {
@@ -38,31 +39,47 @@
 
 .right-top {
     height: 30%;
-    background-color: beige;
+    background-color: purple;
+    color: yellow;
+    display: flex;
+    flex-flow: column-reverse;
 }
 
 .right-top-content {
-    padding: 30% 10% 0% 10%;
+    width: 75%;
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
 
 .right-mid {
     height: 40%;
-    background-color: salmon;
+    background-color: teal;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-bot {
     height: 30%;
-    background-color: gainsboro;
+    background-color: yellow;
+    color: purple;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+}
+
+.right-bot-content {
+    padding-left: 50px;
+    padding-top: 50px;
     gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
     height: 50px;
     width: 150px;
     border-radius: 10px;
-    background-color: aqua;
-    color: blue;
+    background-color: purple;
+    color: yellow;
 }
