@@ -10,13 +10,16 @@
 
 .left-content {
     width: 50%;
+    height: 100%;
+    background-image: url('../images/vinyl.jpg');
+    background-size: cover;
     background-color: aquamarine;
 }
 
 .left-banner {
     height: 70px;
     margin-top: 70px;
-    background-color: blueviolet;
+    background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,12 +32,17 @@
 
 .right-content {
     width: 50%;
+    height: 100%;
     background-color: violet;
 }
 
 .right-top {
     height: 30%;
     background-color: beige;
+}
+
+.right-top-content {
+    padding: 30% 10% 0% 10%;
 }
 
 .right-mid {
