@@ -55,19 +55,20 @@
     height: 40%;
     background-color: teal;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start ;
     align-items: center;
 }
 
 .form-left,
 .form-right {
+    padding-left: 50px;
     display: flex;
     flex-flow: column;
-    align-items: center;
 }
 
 .form-input {
     display: flex;
+    padding-top: 20px;
     flex-direction: column;
 }
 
